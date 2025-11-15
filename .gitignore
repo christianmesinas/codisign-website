@@ -1,0 +1,58 @@
+# WordPress core files
+/wp-admin/
+/wp-includes/
+
+# WordPress core files root
+index.php
+license.txt
+readme.html
+wp-activate.php
+wp-blog-header.php
+wp-comments-post.php
+wp-config-sample.php
+wp-cron.php
+wp-links-opml.php
+wp-load.php
+wp-login.php
+wp-mail.php
+wp-settings.php
+wp-signup.php
+wp-trackback.php
+xmlrpc.php
+wp-config.php
+
+/wp-content/uploads/
+
+/wp-content/plugins/*
+!/wp-content/plugins/my-custom-plugin/
+
+/wp-content/themes/*
+!/wp-content/themes/your-theme-name/
+
+# caching
+wp-content/cache/
+wp-content/backups/
+wp-content/upgrade/
+wp-content/uploads/backups/
+
+# logs
+*.log
+
+# system
+.DS_Store
+Thumbs.db
+
+.env
+.env.local
+.env.*.local
+
+
+/vendor/
+/node_modules/
+npm-debug.log
+package-lock.json
+
+# LocalWP
+*.sql
+local-site.json
+
